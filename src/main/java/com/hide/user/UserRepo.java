@@ -6,4 +6,6 @@ import java.util.List;
 public interface UserRepo {
 
     List<User> getUsers();
+
+    void deleteUser(List<User> users);
 }
